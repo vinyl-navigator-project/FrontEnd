@@ -1,0 +1,101 @@
+.vinyl-card-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 48%;
+    margin-bottom:5px;
+    padding: 10px 5px 15px 5px;
+    border-bottom: 1px solid lightgrey;
+    /*overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; */
+}
+   
+@media(max-width: 605px){
+    .vinyl-card-container{
+        max-width: 260px;
+        min-width: 260px;
+    }    
+}
+
+.vinyl-card-container img{
+    height: auto;
+    box-shadow: 1px 3px 5px black;
+    max-width: 140px;
+    max-height: 140px;
+}
+
+@media(max-width: 605px){
+    .vinyl-card-container img{
+        max-width: 260px;
+        max-height: 260px; 
+    }    
+}
+
+
+@media(max-width: 588px){
+    .header-2{
+        text-align: center;
+    }    
+}
+
+.vinyl-card-container .vinyl-info{
+    width: 58%;
+    padding-left: 13px;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: center;
+    align-items:space-between;
+}
+
+.vinyl-card-container .vinyl-info .band-info{
+    font-size: 21px;
+    font-weight: 500;
+    margin: 5px 0px;
+    text-decoration: underline;
+}
+
+.vinyl-card-container .vinyl-info .manufacturer{
+    font-size: 13px;
+    margin: 8px 0px 0px 0px;
+    font-weight: 600;
+}
+
+.vinyl-card-container .vinyl-info .published-section{
+    font-size: 12px; 
+}
+
+.card-footer{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.vinyl-card-container .vinyl-info h4 {
+    font-size: 9px; 
+    margin: 5px 0px;
+    font-weight: 500;
+}
+
+.isFalse {
+    border: none;
+    color: white;
+    padding: 5px 7px;
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.vinyl-price-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.fas{
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+
+

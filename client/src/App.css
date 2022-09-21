@@ -1,0 +1,22 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+@media(max-width: 425px){
+  body{
+      width: 98%; 
+  }
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+

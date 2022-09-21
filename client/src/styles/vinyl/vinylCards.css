@@ -1,0 +1,29 @@
+.main-section-first-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0px;
+
+}
+
+.vinyl-cards{
+    width: 70%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+@media(max-width: 425px){
+    .vinyl-cards{
+        width: 100%;
+    }    
+}
+
+.social-media-widgets{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 30%;
+    border-bottom: 1px solid lightgrey;
+}

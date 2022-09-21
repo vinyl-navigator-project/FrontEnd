@@ -1,0 +1,21 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto; 
+}
+
+th, td {
+    padding: 0.25rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 100px;
+    max-width: 100px; 
+    min-width: 100px; 
+    overflow-wrap: break-word
+       
+}
+    tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
